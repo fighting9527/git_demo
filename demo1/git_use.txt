@@ -1,0 +1,4 @@
+echo "test" >> test.txt 将字符串写入到某个文件
+git add test.txt 将test.txt从工作区添加到暂存区
+git reset HEAD test.txt 暂存区移除test.txt
+git checkout -- test.txt 清理工作区
